@@ -1,13 +1,13 @@
 {
-  "name": "browser-sync-jekyll",
-  "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "name": "emeraldion.it",
+  "version": "3.0.0",
+  "description": "A static build of the emeraldion.it website with Markdown based on Jekyll, GulpJS, SASS & BrowserSync",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shane Osbourne",
-  "license": "ISC",
+  "author": "Claudio Procida",
+  "license": "MIT / CC BY NC SA 4.0",
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-sass": "^0.7.3",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+    "url": "https://github.com/emeraldion/emeraldion.it.git"
   },
   "keywords": [
     "jekyll",
@@ -25,7 +25,7 @@
     "browsersync"
   ],
   "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+    "url": "https://github.com/emeraldion/emeraldion.it/issues"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
+  "homepage": "https://github.com/emeraldion/emeraldion.it"
 }

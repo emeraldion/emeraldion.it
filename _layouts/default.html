@@ -26,13 +26,13 @@
               <p>
                 Your Name is<br />
                 What You Are<br />
-                you@example.com
+                <a href="mailto:{{ site.email }}?subject=Hi%20from%20emeraldion.it&amp;message=Hi%20Claudio,%A0I'm%20writing%20you%20from%20emeraldion.it">{{ site.email }}</a> 
               </p>
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+                <a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a><br />
+                <a href="https://twitter.com/{{ site.twitter_username }}">twitter.com/{{ site.twitter_username }}</a><br />
               </p>
             </div>
           </div>
