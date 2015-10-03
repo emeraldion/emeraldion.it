@@ -569,6 +569,7 @@ body {
   position: relative;
   font-family: ABeeZee, Georgia, serif;
   font-size: 12pt;
+  text-align: left;
   /*background: #fff url("/assets/images/minimal/body.png") repeat-y center center;*/ }
 
 #external, #external-small {
