@@ -6,6 +6,4 @@ categories: jekyll update website tech
 permalink: blog/2015/10/03/welcome-to-jekyll.html
 ---
 
-# New implementatiob based on jekyll
-
 This is an experiment to build my site using Jekyll, Gulp and Sass.
