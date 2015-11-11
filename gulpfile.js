@@ -70,6 +70,6 @@ gulp.task('default', ['browser-sync', 'watch']);
  * Deploys the dist/ directory to the gh-pages branch to publish on the web
  */
 gulp.task('deploy', function() {
-  return gulp.src('./dist/**/*')
+  return gulp.src('./_site/**/*')
     .pipe(ghPages());
 });
