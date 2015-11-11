@@ -1,25 +1,90 @@
----
-layout: default
-title: Blog
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Blog</title>
+        <meta name="viewport" content="width=device-width">
 
-<div id="single-central">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+      <div id="external">
+        <div id="toplinks">
+  	     <ul class="toplinks">
+  		       <li>
+  			          <a href="/contact/index.html">Contact</a>		</li>
+             <li>
+  			          <a href="/login/index.html">Login</a>		</li>
+  	     </ul>
+       </div>
+       <div id="top"></div>
+  		 <div id="page-bg">
+  				<div id="brd_s">
+  					<div id="brd_w">
+  						<div id="brd_e">
+  							<div id="crn_sw">
+  								<div id="crn_se">
+  									<div id="header"></div>
+
+    <ul id="navbar">
+  		<li>
+  			<a class="navitem here navfirst" href="/home/index.html">
+  				Home			</a>
+  		</li>
+  		<li>
+  			<a class="navitem" href="/software/index.html">
+  				Software			</a>
+  		</li>
+  		<li>
+  			<a class="navitem" href="/blog/index.html">
+  				Blog			</a>
+  		</li>
+  		<li>
+  			<a class="navitem navlast" href="/about/index.html">
+  				About			</a>
+  		</li>
+  	</ul>
+  									<div id="page">
+
+                        <div id="single-central">
 
 	<div class="section">
     <ul class="posts">
-      {% for post in site.posts %}
+      
         <li>
 					<h2>
-						<a class="permalink" href="{{ post.url }}">{{ post.title }}</a>
+						<a class="permalink" href="/blog/2015/10/03/welcome-to-jekyll.html">New Implementation Based on Jekyll</a>
 					</h2>
 					<div class="lighter">
-						<a href="{{ post.url }}">#</a>
+						<a href="/blog/2015/10/03/welcome-to-jekyll.html">#</a>
 						Written by	<a href="/about/claudio.html">Claudio</a>
-						on {{ post.date | date_to_string }}
+						on 03 Oct 2015
 					</div>
 				</li>
-      {% endfor %}
+      
     </ul>
 	</div>
 
 </div>
+
+
+  <!--div class="footer">
+  	<a href="/about/emeraldion_lodge.html">Emeraldion Lodge</a>
+  	powered by
+  	<a href="/about/emerails.html">EmeRails</a>
+  	&copy; 2001-2015 Claudio Procida
+  	&mdash;
+  	<a href="/legal/disclaimer.html">Disclaimer</a>
+  </div-->
+                   </div>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</body>
+</html>
