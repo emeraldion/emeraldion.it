@@ -13,7 +13,7 @@ To use this project, you'll need the following things installed on your machine.
 ## Local Installation
 
 1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `bundle install && npm install`.
+2. Inside the directory, run `$ bundle install && npm install`.
 
 ## Usage
 
@@ -29,8 +29,8 @@ Moreover, as this is just a Jekyll project, any of the commands listed in the [d
 
 This project can deploy the site build to the `gh-pages` branch using the `gulp-gh-pages` plugin:
 
-```bash
-gulp deploy
+```shell
+$ gulp deploy
 ```
 
 # Acknowledgements
